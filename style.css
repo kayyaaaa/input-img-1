@@ -1,0 +1,84 @@
+
+input{
+    display: block;
+}
+@font-face {
+    font-family: "inter";
+    src: url("fonts/Inter-Regular.ttf");
+}
+.box{
+    margin: auto;
+    width: 378px;
+    height: 489px;
+    border-radius: 10px;
+    border: 1px solid rgba(244, 180, 180, 0.48);
+    position: relative;
+    top: 131px;
+}
+.box1{
+    margin: auto;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.screen{
+    width: 276.766px;
+    height: 172.781px; 
+    
+}
+
+form{
+    margin-left: 31px;
+    margin-top: 18.48px;
+}
+label{
+    color: #616161;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid rgba(244, 180, 180, 0.48);
+    outline: none;
+    color: #9E9E9E;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+button{
+    width: 320px;
+    height: 45px;
+    border-radius: 10px;
+    background: #6756CB;
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    
+    
+  
+}
+
+.password{
+    margin-bottom: 25px;
+    background: url("icons/eye-slash\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: 287px center;
+    background-size: 16px 16px;
+} 
+.email{
+
+    background: url("icons/person-bounding-box\ 1.svg");
+    margin-bottom: 14px;
+    background-repeat: no-repeat;
+    background-position: 287px center;
+    background-size: 16px 16px;
+}
